@@ -1,1 +1,1 @@
-web: python monitor.py
+web: gunicorn monitor:app
